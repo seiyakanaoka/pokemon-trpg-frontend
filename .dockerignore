@@ -1,12 +1,8 @@
-# Ignore everything
-**
-
-# Allowed files
-!/.next/**
-!/public/**
-!/next.config.js
-!/package.json
-!/yarn.lock
-
-!/.yarn/**
-!/.yarnrc
+# 以下のファイルは除外する(公式引用)
+Dockerfile
+.dockerignore
+node_modules
+npm-debug.log
+README.md
+.next
+.git
