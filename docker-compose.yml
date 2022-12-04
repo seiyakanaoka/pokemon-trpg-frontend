@@ -1,0 +1,10 @@
+version: "3"
+services:
+  nextjs:
+    build: .
+    ports:
+      - "3000:3000"
+    container_name: pokemon-trpg-frontend
+    volumes:
+      - .:/app
+    command: yarn start
